@@ -7,3 +7,5 @@ Here we can change the price by increasing and decreasing the number
 And when it reaches the number one, it shows the occupation bucket instead of the negative
 
 ![image](https://user-images.githubusercontent.com/87533504/153744235-18b3fa4d-fd2f-4a6c-b9f3-042fda176f30.png)
+
+path = src / app 
