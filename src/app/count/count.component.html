@@ -1,0 +1,14 @@
+<div class="count">
+    <div class="input-group-append">
+        <button class="btn elin-btn-plus " type="button" (click)="increase()"><i class="fas fa-plus font-size-icon" ></i></button>
+    </div>
+    <span class="form-control-plaintext text-center">
+        {{quantity}}
+    </span>
+    <div class="input-group-prepend">
+        <button class="btn elin-btn-minus" type="button" (click)="decrease()">
+            <i class="fas fa-minus font-size-icon" *ngIf="quantity >=2"></i>
+            <i class="fas fa-trash font-size-icon" (click)="trash()" *ngIf="quantity ==1"></i>
+        </button>
+    </div>
+</div>
